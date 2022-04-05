@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4bd5aec.css",
+    "main.js": "/static/js/main.af0235b4.js",
+    "static/media/vector-doodle-seamless-pattern-smart-260nw-358624982.jpg": "/static/media/vector-doodle-seamless-pattern-smart-260nw-358624982.e9279f3c5901266e059c.jpg",
+    "index.html": "/index.html",
+    "main.f4bd5aec.css.map": "/static/css/main.f4bd5aec.css.map",
+    "main.af0235b4.js.map": "/static/js/main.af0235b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4bd5aec.css",
+    "static/js/main.af0235b4.js"
+  ]
+}
