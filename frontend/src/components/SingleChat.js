@@ -20,7 +20,7 @@ import { io } from "socket.io-client";
 import animationData from "../animation/86722-typing-animation.json";
 import Lottie from "react-lottie";
 
-const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "https://mern-ameya-chat.herokuapp.com/"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 const SingleChat = ({ fetchAgain, setFetchAgain }) => {
