@@ -21,9 +21,7 @@ const corsOpts = {
   allowedHeaders: ["Content-Type", "Authorization"],
 };
 app.use(cors(corsOpts));
-app.get("/", (req, res) => {
-  res.send("API is running");
-});
+
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
@@ -49,7 +47,7 @@ app.use(notFound);
 app.use(errorHandler);
 
 const PORT = process.env.PORT || 4000;
-const server = app.listen(PORT, console.log("Server has started"));
+const server = app.listen(PORT, console.log(`Server has started ${PORT}`));
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
